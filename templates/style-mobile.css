@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+	margin: 0;
+	font-family: Roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+	/* width: 100--vw; */
+    position: relative;
+    overflow: auto;
+}
+img {
+	width: inherit;
+	height: inherit;
+}
+
+/* things for the header */
+.header {
+    display: flex;
+    flex-shrink: 1;
+    margin: 0;
+	justify-content: space-between;
+	align-content: center;
+	color: #F9FAF8;
+	background-color: #1F2937;
+    max-height: 75px;
+    width: 100--vw;
+	top: 0;
+    border-bottom: paleturquoise solid 3px;
+}
+.headerlinks {
+	display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+	justify-content: flex-start;
+   	list-style-type: none;
+	align-self: center;
+    width: 100%;
+	padding-top: 1em;
+    padding-right: 2rem;
+}
+
+.headerlinks li a {
+	text-decoration: inherit;
+	color: #F9FAF8;
+	font-size: small;
+	font-weight: 700;
+	padding: 1rem 3rem 1rem 0;
+
+}
+.headerlinks li a:hover {
+	color: rgb(116, 178, 230);
+}
+.logoimage {
+    flex-grow: 0;
+	padding: 5px 0 0 5px;
+    margin-right: -120px;
+	height: 65px;
+    width: auto;
+}
+
+/* section one stuff */
+.section1 {
+	display: flex;
+    flex-shrink: 1;
+    width: 100--vw;
+	background-color: #1F2937;
+	align-items: center;
+	justify-content: center;
+	padding: 1em 2em;
+}
+.one-a {
+	display: flex;
+    flex-shrink: 1;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0 2em;
+}
+.one-b {
+    width: 40vw;
+    height: auto;
+	margin: 1rem 2rem;
+}
+.title {
+	color: #F9FAF8;
+	font-size: x-large;
+	font-weight: 700;
+}
+.subtitle {
+	color: #F9FAF8;
+	font-size: small;
+	font-weight: lighter;
+	margin: 1em 0;
+}
+button {
+	color: linen;
+	font-size: small;
+	background-color: rgb(55, 126, 170);
+	text-align: center;
+	padding: .5rem 1rem;
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: 600px;
+}
+button:hover {
+	background-color: #36475e;
+}
+
+/* section two stuff */
+.section2 {
+    display: flex;
+    flex-shrink: 1;
+    width: 100--vw;
+	flex-direction: column;
+	align-items: center;
+	margin: 2em 0;
+	padding: 0 1em;
+	color: #1F2937;
+}
+.header2 {
+	font-size: xx-large;
+	font-weight: 900;
+	
+}
+.cards {
+	display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    width: 100vw;
+	margin: 1em 1em;
+}
+.cards1 .cards2 {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 30vw;
+}
+
+.captionedimage {
+	display: flex;
+    flex-shrink: 1;
+	flex-direction: column;
+	align-items: flex-start;
+   	margin: 1em;
+    width: 40vw;
+    min-height: 35vw;
+    height: auto;
+}
+.cardpic {
+	flex-grow: 1;
+	flex-shrink: 1;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.caption {
+    font-size: smaller;
+}
+
+/* section three stuff */
+.section3 {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	background-color: lightgrey;
+	justify-items: center;
+	padding: 2em;
+}
+.quote {
+	font-size: large;
+	font-style: italic;
+}
+.attribution {
+    font-size: medium;
+	font-weight: 700;
+	align-self: center;
+	padding-left: 2rem;
+	margin-top: 1em;
+}
+
+/* section four things  */
+.section4 {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	background-color: #36475e;
+	margin: 1em 2em;
+	padding: 1em 1em;
+	border-radius: 10px;
+    gap: 1rem;
+}
+.section4 button {
+    padding: 1rem;
+}
+.actionbox {
+	display: flex;
+	flex-direction: column;
+}
+.actiontitle {
+	font-size: large;
+	color: #F9FAF8;
+	font-weight: bold;
+    margin-bottom: .3rem;
+}
+.actionsubtitle {
+	font-size: small;
+	font-weight: normal;
+	color: oldlace;
+	padding-left: 3px;
+}
+
+/* footer stuff here */
+.footer {
+	display: flex;
+    font-size: smaller;
+	background-color: #1F2937;
+	justify-content: center;
+	color: rgb(141, 147, 158);
+}
+
+.pettitle {
+	display: block;
+	font-size: x-large;
+	justify-self: center;
+}
+.pettableimage img {
+	max-width: 100vw;
+	height: auto;
+}
+.pettableimage img:hover {
+	cursor: url('./hand.png'), auto;	
+}
